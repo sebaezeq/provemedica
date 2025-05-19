@@ -8,7 +8,7 @@ export default function Home() {
         electromedicina, insumos y descartables.
         <br /><br />
         Somos importadores y distribuidores de las mejores marcas nacionales e importadas. Y por la excelente relación
-        "calidad-precio" que mantenemos, somos proveedores del Banco Interamericano de Desarrollo, instituciones
+        &quot;calidad-precio&quot; que mantenemos, somos proveedores del Banco Interamericano de Desarrollo, instituciones
         privadas, nacionales, provinciales, municipales, etc.
         <br /><br />
         Nuestro personal cuenta con muchos años de experiencia en el rubro, está muy capacitado y es sumamente
@@ -20,7 +20,7 @@ export default function Home() {
         <br /><br />
         Reparamos equipos médicos.
         <br /><br />
-        Como nuestro lema es: &quot;equipamiento médico&quot, lo esperamos de lunes a viernes de 9:00 a 19:00hs y sábados de
+        Como nuestro lema es: &quot;equipamiento médico&quot;, lo esperamos de lunes a viernes de 9:00 a 19:00hs y sábados de
         9:30 a 12:30hs.
         <br /><br />
         Hacemos envíos al interior y a domicilio en Capital Federal (consulte nuestras zonas de entrega).

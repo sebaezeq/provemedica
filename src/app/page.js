@@ -20,7 +20,7 @@ export default function Home() {
         <br /><br />
         Reparamos equipos médicos.
         <br /><br />
-        Como nuestro lema es: <b>"SU CONSULTA NO MOLESTA"</b>, lo esperamos de lunes a viernes de 9:00 a 19:00hs y sábados de
+        Como nuestro lema es: &quot;equipamiento médico&quot, lo esperamos de lunes a viernes de 9:00 a 19:00hs y sábados de
         9:30 a 12:30hs.
         <br /><br />
         Hacemos envíos al interior y a domicilio en Capital Federal (consulte nuestras zonas de entrega).

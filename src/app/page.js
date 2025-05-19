@@ -1,95 +1,30 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
+// src/app/page.js
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    <main style={{ padding: '2rem' }}>
+      <h1 style={{ color: '#5060a8' }}>Bienvenido a Provemedica</h1>
+      <p>
+        Provemedica es una empresa dedicada a la venta de equipamiento médico hospitalario, instrumental médico,
+        electromedicina, insumos y descartables.
+        <br /><br />
+        Somos importadores y distribuidores de las mejores marcas nacionales e importadas. Y por la excelente relación
+        "calidad-precio" que mantenemos, somos proveedores del Banco Interamericano de Desarrollo, instituciones
+        privadas, nacionales, provinciales, municipales, etc.
+        <br /><br />
+        Nuestro personal cuenta con muchos años de experiencia en el rubro, está muy capacitado y es sumamente
+        responsable, por lo tanto, podrá asesorarlo, con la habitual cordialidad que nos caracteriza, para colaborar en
+        su toma de decisión.
+        <br /><br />
+        En nuestro amplio, moderno y confortable local de ventas-exposición, usted tendrá la posibilidad de elegir entre
+        un extenso surtido de productos de calidad y buen precio.
+        <br /><br />
+        Reparamos equipos médicos.
+        <br /><br />
+        Como nuestro lema es: <b>"SU CONSULTA NO MOLESTA"</b>, lo esperamos de lunes a viernes de 9:00 a 19:00hs y sábados de
+        9:30 a 12:30hs.
+        <br /><br />
+        Hacemos envíos al interior y a domicilio en Capital Federal (consulte nuestras zonas de entrega).
+      </p>
+    </main>
   );
 }

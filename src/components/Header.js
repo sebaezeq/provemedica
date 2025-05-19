@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header>
       <Link href="/" className="logo">
-        <Image src="https://equipamiento-medico.net/images/logos/433.png" alt="Logo" width={200} height={100} />
+<Image src="/images/Logo.jpg" alt="Logo" width={200} height={100} />
 
       </Link>
       <nav>
